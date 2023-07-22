@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multiple Timers App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <audio id="notificationSound" src="./alarm.mp3">This is audio tag</audio>
+
+   <nav>
+      <h1>Multiple Timers App</h1>
+      
+   </nav>
+   <main>
+     <div id="timer">
+        <h5>Set Time :</h5>
+        <div class="input-section">
+            <input id="hours" type="text" placeholder="HH"> <span>:</span>
+            <input id="minutes" type="text" placeholder="MM"> <span>:</span>
+            <input id="seconds" type="text" placeholder="SS">
+        </div>
+        <button id="set-alarm-button">Set</button>
+     </div>
+     <div class="" id="current-timers">
+        Current Timers
+     </div>
+
+
+     
+     <div id="active-timers">
+      <h2 id="warning">You have no timers currently!</h2>
+     </div>
+   </main>
+    <script src="./script.js"></script>
+</body>
+</html>

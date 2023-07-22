@@ -1,0 +1,177 @@
+*{
+    padding: 0;
+    margin:0;
+    color: whitesmoke;
+    
+}
+
+body{
+    background-color: #1D1D23;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    color: whitesmoke
+}
+
+
+main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: column wrap;
+    gap: 30px;
+    margin: 20px 0;
+    min-height: 500px;
+}
+#timer{
+    display: flex;
+    flex-flow: row nowrap;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+    background-color:#34344A;
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+
+.input-section{
+    width: 230px;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 20px;
+    font-weight: 800;
+    align-items: center;
+    justify-content: space-around;
+}
+#timer .input-section input{
+    outline: none;
+    border: none;
+    width: 50px;
+    height: 20px;
+    padding: 5px;
+    background-color: transparent;
+    color: whitesmoke;
+    font-size:20px;
+    font-weight: 800;
+    text-decoration: underline;
+    
+}
+
+#timer .input-section  input::placeholder {
+    /* Specify the color you want for the placeholder text */
+    color: whitesmoke; /* Replace with your desired color */
+  }
+
+.input-section{
+    color: whitesmoke;
+    font-weight: 800;
+    font-size: 20px;
+}
+#set-alarm-button,#delete-alarm-button{
+    width: 50px;
+    height: 25px;
+    border-radius: 10px;
+    background: #F0F757;
+    color: black;
+    border: none;
+   
+}
+
+
+
+#timer h5{
+    /* color: whitesmoke; */
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+
+/* decoration of current-timer div */
+
+#current-timers{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    background-color: #39393E;
+    border-radius: 20px;
+    height: 40px;
+}
+
+
+/* decoration of active timers */
+
+#active-timers{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    gap:20px;
+}
+
+
+
+/* active timer decoration */
+.active-timer{
+    display: flex;
+    flex-flow: row nowrap;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+    background-color:#34344A;
+    height: 50px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.active-timer h5{
+    width: 100px;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+
+.active-timer .active-timer-input-section{
+    width: 230px;
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 20px;
+    font-weight: 800;
+    align-items: center;
+    justify-content: space-around;
+}
+
+/* #active-timer .active-timer-input-section span{
+    width: 40px;
+} */
+
+
+
+.btndelete{
+    width: 50px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+}
+
+
+
+.btnstop{
+    display: none;
+    /* visibility: hidden; */
+    width: 50px;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+}
+
+
